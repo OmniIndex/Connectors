@@ -1,13 +1,13 @@
 This folder holds the Google Data Studio Comunnity Connector Code.
-The top level holds the OIDXBase.gs file, and the individual connector folders.
+The top level holds the oidxbase.gs file, and the individual connector folders.
 Then the child folders hold their own specific code files allong with their appscript.jason configuration file.
 
 eg:
-/OIDXBase.gs
 /Health-Imaging-data/Code.gs
-/Health-Imaging-data/appscript.js
+/Health-Imaging-data/appscript.json
+/Health-Imaging-data/oidxbase.gs
 
-The OIDXBase.gs holds the code that is used by all of teh OmniIndex Connectors. This includes the following function implementations.
+The oidxbase.gs holds the code that is used by all of teh OmniIndex Connectors. This includes the following function implementations.
 
 function sendUserError(message)
 function isAuthValid()
